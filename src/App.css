@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
+  background-color: dimgray;
+  width: 300px;
+  height: 44px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+input {
+  font: 16px system-ui;
+  background-color: #444444;
+  border: #616161 solid 2px;
+  border-radius: 5px;
+  padding: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  all: unset;
+  cursor: pointer;
+  border: #616161 solid 2px;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background-color: #444444;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remaining {
+  color: white;
+  font-size: 18px;
+  width: 97%;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.triple-buttons {
+  width: 97%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.ToDo div {
+  background-color: #535353;
+  padding: 10px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.Wrapper {
+  background-color: #444444;
+  margin: 0;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: white;
+  display: grid;
+  grid-gap: 7px;
+  border: #616161 solid 2px;
 }
